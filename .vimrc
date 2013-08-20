@@ -1,6 +1,10 @@
 set nocompatible               " be iMproved
 filetype off                   " required!
 set directory=~/.vim/tmp
+<<<<<<< HEAD
+=======
+
+>>>>>>> 2ed98baca88ec45c20345b5d8166b59761a9d826
 set rtp+=~/.vim/bundle/vundle/
 call vundle#rc()
 
@@ -45,6 +49,7 @@ filetype plugin indent on     " required!
 syntax enable
 set background=dark
 colorscheme solarized
+<<<<<<< HEAD
 set smartindent
 set softtabstop=0
 set shiftwidth=2
@@ -86,3 +91,5 @@ nnoremap <silent> <A-Right> :execute 'silent! tabmove ' . tabpagenr()<CR>
 :vmap ,x :%!tidy -q -i --show-errors 0<CR>
 
 set runtimepath^=~/.vim/bundle/ctrlp.vim
+=======
+>>>>>>> 2ed98baca88ec45c20345b5d8166b59761a9d826
